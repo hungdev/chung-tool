@@ -44,7 +44,7 @@ Ständig haben wir das Smartphone in der Hand und sehen schlechte Nachrichten: K
 
     // return processedWords.join(" ") + "<br>"; // Kết hợp các từ và thêm thẻ <br> ở cuối mỗi câu
     return (
-      <div key={idS} className>
+      <div key={idS} className="mt-2">
         {processedWords}
         <br />
       </div>
@@ -53,6 +53,7 @@ Ständig haben wir das Smartphone in der Hand und sehen schlechte Nachrichten: K
 
   return (
     <div>
+      <div className="text-red-500">aaaa</div>
       <div>{processedSentences}</div>
     </div>
   );

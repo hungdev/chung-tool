@@ -40,7 +40,9 @@ function WordProcess() {
       const expectedChar =
         word?.substr(1)?.[textObject?.[`${word}-${idx}`]?.length - 1];
       const isMatch = currentChar === expectedChar;
-      const isMatchFull = word?.substr(1) === textObject?.[`${word}-${idx}`];
+      const isMatchFull =
+        word?.substr(1)?.toLocaleLowerCase() ===
+        textObject?.[`${word}-${idx}`]?.toLocaleLowerCase();
 
       if (pureWord.length > 1) {
         const nonAlphaNumeric = word.replace(/[a-zA-Z0-9üäöÜÄÖß]/g, "");

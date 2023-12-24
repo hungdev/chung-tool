@@ -4,17 +4,3 @@
   padding: 2rem;
   /* text-align: center; */
 }
-
-.first-letter {
-  font-size: 100%;
-  font-weight: bold;
-}
-
-.word-input {
-  border: none;
-  border-bottom: 1px solid #333;
-  /* border-top: 1px solid #333;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333; */
-  width: auto;
-}
